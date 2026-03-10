@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poiret+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  height: 100vh;
+  background-color: #161610;
+  color: #ffffff;
+}
+
+.primary-button {
+  padding: 20px 30px;
+  border-radius: 50px;
+  background: linear-gradient(265deg, #da7c25, #b923e1);
+  font-size: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  display: inline-block;
+  transition: all 0.5s ease;
+  
+}
+
+.primary-button:hover {
+  transform: scale(1.11);
+}
+
+@media (min-width: 768px) and (max-width: 1240px) {
+    .primary-button {
+      padding: 10px 10px;
+      border-radius: 50px;
+      font-size: 12px;
+      
+    }
+}

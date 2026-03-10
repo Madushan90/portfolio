@@ -1,0 +1,9 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 150px;
+}
+.navbar img {
+    width: 120px;
+}

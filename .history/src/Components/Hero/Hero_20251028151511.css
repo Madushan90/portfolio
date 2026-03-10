@@ -1,0 +1,12 @@
+.hero-content {
+    display: flex;
+    padding: 30px 0px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.banner-img {
+    border-radius: 100%;
+    width: auto;
+    height: 600px;
+}

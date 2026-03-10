@@ -1,0 +1,8 @@
+.hero-content {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.banner-img {
+    border-radius: 50%;
+}
