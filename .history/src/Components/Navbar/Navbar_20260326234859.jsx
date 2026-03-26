@@ -17,8 +17,8 @@ const Navbar = () => {
       <nav>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Mobile Menu */}
-        <div className="md:hidden fixed flex justify-end w-full px-5 py-2 z-50">
-          <Menu onClick={() => setsideBarOpen(true)} className='bg-white/30 text-white hover:text-amber-400 rounded-l-xl w-10 h-10 cursor-pointer pt-3 pb-2' />
+        <div className="md:hidden fixed flex justify-end w-full px-5 py-1 z-50">
+          <Menu onClick={() => setsideBarOpen(true)} className='bg-white/30 text-white hover:text-amber-400 rounded-l-xl w-10 h-10 cursor-pointer pt-2 pb-1' />
         </div>
         <div class={`${sideBar ? "translate-x-0" : "translate-x-full"} md:hidden fixed inset-y-0 right-0 z-50 w-80 bg-white/10 backdrop-blur-2xl border-r border-white/20 transform transition-all duration-500 ease-out lg:translate-x-0 lg:static lg:inset-0`}>
           <div className='flex justify-end px-5 pt-3'>

@@ -18,19 +18,19 @@ const MyWorks = () => {
             <h1 className='text-white text-2xl font-light text-left mb-5'>React Js</h1>
         </div>
 
-        <div className='grid grid-cols-1 md:grid-cols-12 mb-10 gap-4'>
-            <div className='md:col-span-4 flex justify-center items-center'>
+        <div className='grid sm:grid-cols-12 md:grid-cols-12 lg:grid-cols-12 mb-25 gap-4'>
+            <div className='col-span-4 flex justify-between items-center'>
                 <a href='https://admin-dashboard-three-sage-gkzs8n0ry5.vercel.app/' target='_blank'>
                     <div className='inline-block bg-slate-900/15 border-1 border-slate-400/10 text-white hover:bg-linear-120 from-sky-300/20 to-blue-700/20 rounded-xl p-3 transform hover:scale-101 hover:shadow-2xl transition-all duration-500'>
                         <img src={AdminDashboardImage} alt='admin-dashboard-img' className='rounded-xl' />
-                        <p className='text-gray-300 font-extralight text-center mt-4'>Admin Dashboard - React Js</p>
+                        <p className='text-white font-extralight text-center mt-4'>Admin Dashboard - React Js</p>
                     </div>
                 </a>
             </div>
-            <div className='md:col-span-8'>
-                <div className='flex text-gray-300 font-light text-sm tracking-widest h-full bg-slate-900/15 pl-5 rounded-xl py-5'>
-                    <ul class="list-disc pl-3 flex flex-col justify-center gap-4">
-                        <li><b>Modern React Architecture:</b> Utilizes functional components and hooks (useState, useEffect) for real-time state and dynamic UI updates.</li>
+            <div className='col-span-8'>
+                <div className='flex text-white font-light text-sm tracking-wide h-full bg-slate-900/15 pl-5 rounded-xl'>
+                    <ul class="flex flex-col justify-center gap-4">
+                        <li><b>Modern React Architecture</b> Utilizes functional components and hooks (useState, useEffect) for real-time state and dynamic UI updates.</li>
 
                         <li><b>Advanced UI/UX:</b> Implements a premium "glassmorphic" aesthetic using Tailwind CSS with backdrop-blur, custom gradients, and smooth micro-interactions.</li>
 
@@ -38,18 +38,23 @@ const MyWorks = () => {
 
                         <li><b>Component-Driven Development:</b> Engineered with reusable, prop-driven components (E.g., MetricCard, LiveActivityItem) for high maintainability.</li>
 
-                        <li><b>Responsive Engineering:</b> Features a mobile-first, adaptive layout with a transition-ready sidebar and touch-optimized elements.
-                        </li>
+                        <li><b>Responsive Engineering:</b> Features a mobile-first, adaptive layout with a transition-ready sidebar and touch-optimized elements.</li>
                     </ul>
-
-                    
                 </div>
             </div>
         </div>
 
+        <div className='grid sm:grid-cols-1 md:grid-cols-12 lg:grid-cols-3 gap-8 place-items-center mb-25'>
+            <div>
+                <a href='https://admin-dashboard-three-sage-gkzs8n0ry5.vercel.app/' target='_blank'>
+                    <div className='inline-block bg-slate-900/15 border-1 border-slate-400/10 text-white hover:bg-linear-120 from-sky-300/20 to-blue-700/20 rounded-xl p-3 transform hover:scale-101 hover:shadow-2xl transition-all duration-500'>
+                        <img src={AdminDashboardImage} alt='admin-dashboard-img' className='rounded-xl' />
+                        <p className='text-white font-extralight text-center mt-4'>Admin Dashboard - React Js</p>
+                    </div>
+                </a>
+            </div>
 
-        <div className='grid grid-cols-1 md:grid-cols-12 mb-10 gap-4'>
-            <div className='md:col-span-4 flex justify-center items-center'>
+            <div>
                 <a href='https://moviespot-ten.vercel.app/' target='_blank'>
                     <div className='inline-block bg-slate-900/15 border-1 border-slate-400/10 text-white hover:bg-linear-120 from-sky-300/20 to-blue-700/20 rounded-xl p-3 transform hover:scale-101 hover:shadow-2xl transition-all duration-500'>
                         <img src={MovieAppImage} alt='movie-app-img' className='rounded-xl' />
@@ -57,26 +62,7 @@ const MyWorks = () => {
                     </div>
                 </a>
             </div>
-            <div className='md:col-span-8'>
-                <div className='flex text-gray-300 font-light text-sm tracking-wide h-full bg-slate-900/15 pl-5 rounded-xl py-5'>
-                    <ul class="list-disc pl-3 flex flex-col justify-center gap-4">
-                        <li><b>Core Framework:</b> Developed using React.js with functional components and Hooks (useState, useEffect) for efficient state and lifecycle management.</li>
-
-                        <li><b>External API Integration:</b> Seamlessly fetches real-time movie data, posters, and descriptions from The Movie Database (TMDB) API using the Fetch API and Async/Await.</li>
-
-                        <li><b>Theme Customization:</b> Includes a toggleable Dark/Light mode system that persists user preferences across sessions via LocalStorage.</li>
-
-                        <li><b>Modular Architecture:</b> Built with a highly reusable component structure (e.g., Movielist, Moviecard, FilterGroup) to maintain clean, scalable code.</li>
-
-                        <li><b>Responsive Engineering:</b> Features a mobile-first, adaptive layout with a transition-ready sidebar and touch-optimized elements.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-
-        <div className='grid grid-cols-1 md:grid-cols-12 mb-10 gap-4'>
-            <div className='md:col-span-4 flex justify-center items-center'>
+            <div>
                 <a href='https://gsap-landing-page-two.vercel.app/' target='_blank'>
                     <div className='inline-block bg-slate-900/15 border-1 border-slate-400/10 text-white hover:bg-linear-120 from-sky-300/20 to-blue-700/20 rounded-xl p-3 transform hover:scale-101 hover:shadow-2xl transition-all duration-500'>
                         <img src={GsapImage} alt='GSAP-img' className='rounded-xl' />
@@ -84,23 +70,9 @@ const MyWorks = () => {
                     </div>
                 </a>
             </div>
-            <div className='md:col-span-8'>
-                <div className='flex text-gray-300 font-light text-sm tracking-wide h-full bg-slate-900/15 pl-5 rounded-xl py-5'>
-                    <ul class="list-disc pl-3 flex flex-col justify-center gap-4">
-                        <li><b>GSAP-Scroll Interactivity:</b> Engineered a cinematic experience using ScrollTrigger to bind video playback, CSS masking, and multi-axis parallax to the user's scroll position.</li>
 
-                        <li><b>Precision Typography:</b> Leveraged the SplitText plugin for granular control over text nodes, implementing staggered, character-level entrance animations.</li>
-
-                        <li><b>State-Driven Motion:</b> Integrated the useGSAP hook with React state to trigger seamless re-entry animations whenever the cocktail selection is updated.</li>
-
-                        <li><b>SVG & CSS Masking:</b> Developed a "zoom-into-content" transition by animating maskSize and scale properties within a scrub-enabled timeline.</li>
-
-                        <li><b>Responsive Animation Logic:</b> Implemented useMediaQuery to dynamically recalculate GSAP start/end triggers, ensuring fluid performance across mobile and desktop.</li>
-                    </ul>
-                </div>
-            </div>
         </div>
-        <br/>
+
         <div className='relative'>
             <h1 className='text-white text-2xl font-light text-left mb-5'>Wordpress</h1>
         </div>

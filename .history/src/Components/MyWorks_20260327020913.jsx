@@ -29,7 +29,7 @@ const MyWorks = () => {
             </div>
             <div className='md:col-span-8'>
                 <div className='flex text-gray-300 font-light text-sm tracking-widest h-full bg-slate-900/15 pl-5 rounded-xl py-5'>
-                    <ul class="list-disc pl-3 flex flex-col justify-center gap-4">
+                    <ul class="flex flex-col justify-center gap-4">
                         <li><b>Modern React Architecture:</b> Utilizes functional components and hooks (useState, useEffect) for real-time state and dynamic UI updates.</li>
 
                         <li><b>Advanced UI/UX:</b> Implements a premium "glassmorphic" aesthetic using Tailwind CSS with backdrop-blur, custom gradients, and smooth micro-interactions.</li>
@@ -59,7 +59,7 @@ const MyWorks = () => {
             </div>
             <div className='md:col-span-8'>
                 <div className='flex text-gray-300 font-light text-sm tracking-wide h-full bg-slate-900/15 pl-5 rounded-xl py-5'>
-                    <ul class="list-disc pl-3 flex flex-col justify-center gap-4">
+                    <ul class="flex flex-col justify-center gap-4">
                         <li><b>Core Framework:</b> Developed using React.js with functional components and Hooks (useState, useEffect) for efficient state and lifecycle management.</li>
 
                         <li><b>External API Integration:</b> Seamlessly fetches real-time movie data, posters, and descriptions from The Movie Database (TMDB) API using the Fetch API and Async/Await.</li>
@@ -86,7 +86,7 @@ const MyWorks = () => {
             </div>
             <div className='md:col-span-8'>
                 <div className='flex text-gray-300 font-light text-sm tracking-wide h-full bg-slate-900/15 pl-5 rounded-xl py-5'>
-                    <ul class="list-disc pl-3 flex flex-col justify-center gap-4">
+                    <ul class="flex flex-col justify-center gap-4">
                         <li><b>GSAP-Scroll Interactivity:</b> Engineered a cinematic experience using ScrollTrigger to bind video playback, CSS masking, and multi-axis parallax to the user's scroll position.</li>
 
                         <li><b>Precision Typography:</b> Leveraged the SplitText plugin for granular control over text nodes, implementing staggered, character-level entrance animations.</li>
@@ -95,7 +95,7 @@ const MyWorks = () => {
 
                         <li><b>SVG & CSS Masking:</b> Developed a "zoom-into-content" transition by animating maskSize and scale properties within a scrub-enabled timeline.</li>
 
-                        <li><b>Responsive Animation Logic:</b> Implemented useMediaQuery to dynamically recalculate GSAP start/end triggers, ensuring fluid performance across mobile and desktop.</li>
+                        <li><b>Responsive Animation Logic:</b> Features a mobile-first, adaptive layout with a transition-ready sidebar and touch-optimized elements.</li>
                     </ul>
                 </div>
             </div>

@@ -29,7 +29,7 @@ const MyWorks = () => {
             </div>
             <div className='md:col-span-8'>
                 <div className='flex text-gray-300 font-light text-sm tracking-widest h-full bg-slate-900/15 pl-5 rounded-xl py-5'>
-                    <ul class="list-disc pl-3 flex flex-col justify-center gap-4">
+                    <ul class="flex flex-col justify-center gap-4">
                         <li><b>Modern React Architecture:</b> Utilizes functional components and hooks (useState, useEffect) for real-time state and dynamic UI updates.</li>
 
                         <li><b>Advanced UI/UX:</b> Implements a premium "glassmorphic" aesthetic using Tailwind CSS with backdrop-blur, custom gradients, and smooth micro-interactions.</li>

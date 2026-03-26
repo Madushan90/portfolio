@@ -7,30 +7,7 @@ const About = () => {
   return (
     <div id="about" className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 pt-36'>
         <div className="flex flex-col md:flex-row gap-10 items-center px-4 md:px-0">
-            <div className="flex-1">
-                {/* <img className='w-90 mx-auto rounded-full border-8 border-cyan-700' src={AboutImage} alt='profile banner' /> */}
-                <div className='mt-8'>
-                    <div className='flex justify-center'>
-                        <a href='https://www.linkedin.com/in/madhushan90/' target='_blank' className='w-46 flex justify-center border-1 border-slate-500 px-7 py-2.5 rounded-3xl transform hover:scale-105 hover:border-transparent transition-all duration-500 cursor-pointer hover:bg-slate-900 hover:border-slate-500/80'>
-                            <span className='flex items-center text-white text-xl font-extralight mr-2'>LinkedIn</span>
-                            <Linkedin className='text-white  w-6 h-6' />
-                        </a>
-                    </div>
-                    <div className='flex justify-center my-3'>
-                        <a href='https://github.com/Madushan90' target='_blank' className='w-46 flex justify-center border-1 border-slate-500 px-7 py-2.5 rounded-3xl transform hover:scale-105 hover:border-transparent transition-all duration-500 cursor-pointer hover:bg-slate-900 hover:border-slate-500/80'>
-                            <Github className='text-white mt-0.5 w-6 h-6' />
-                            <span className='flex items-center text-white text-xl font-extralight ml-2'>GitHub</span>
-                            
-                        </a>
-                    </div>
-                    <div className='flex justify-center'>
-                        <a href='https://www.behance.net/chamaramadhushan90' target='_blank' className='w-46 flex justify-center border-1 border-slate-500 px-7 py-2.5 rounded-3xl transform hover:scale-105 hover:border-transparent transition-all duration-500 cursor-pointer hover:bg-slate-900 hover:border-slate-500/80'>
-                            <span className='flex items-center text-white text-xl font-extralight mr-2'>Behance</span>
-                            <img src={BhanceLogo} alt='behance-logo' className='text-white mt-0.5 w-6 h-6' />
-                        </a>
-                    </div>
-                </div>
-            </div>
+            
             <div className="flex-2">
                 <div>
                     <h1 className='text-gray-300 text-5xl font-extralight mb-8'>About Me</h1>

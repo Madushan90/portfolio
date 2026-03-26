@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div id="about" className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 pt-36'>
         <div className="flex flex-col md:flex-row gap-10 items-center px-4 md:px-0">
-            <div className="flex-1">
+            <div className="flex-2">
                 {/* <img className='w-90 mx-auto rounded-full border-8 border-cyan-700' src={AboutImage} alt='profile banner' /> */}
                 <div className='mt-8'>
                     <div className='flex justify-center'>
@@ -31,7 +31,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex-2">
+            <div className="flex-1">
                 <div>
                     <h1 className='text-gray-300 text-5xl font-extralight mb-8'>About Me</h1>
                     <p className='text-gray-300 text-lg'>I’m a Frontend Developer and UI/UX Designer with 7+ years of experience crafting engaging and user-centered digital experiences. I specialize in building responsive, high-performance interfaces using modern web technologies including HTML, CSS, JavaScript, and React.js.<br/><br/>
